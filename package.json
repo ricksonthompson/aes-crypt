@@ -1,0 +1,19 @@
+{
+  "name": "aes-crypt",
+  "version": "1.0.0",
+  "description": "Script de crypt e decrypt usando AES key.",
+  "main": "index.js",
+  "scripts": {
+    "generate:key": "node src/generate_aes_key.js",
+    "encrypt:data": "node src/encrypt_data.js",
+    "decrypt:data": "node src/decrypt_data.js"
+  },
+  "keywords": [
+    "aes",
+    "key",
+    "decrypt",
+    "crypt"
+  ],
+  "author": "Rickson Thompson",
+  "license": "ISC"
+}
